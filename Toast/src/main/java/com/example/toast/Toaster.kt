@@ -5,8 +5,8 @@ import android.widget.Toast
 
 class Toaster {
     companion object{
-    fun toast(context:Context,msg:String) {
+    fun toast(a:Int,b:Int):Int {
 
-        Toast.makeText(context,msg,Toast.LENGTH_SHORT).show()
+        return a+b
     }
 }}
